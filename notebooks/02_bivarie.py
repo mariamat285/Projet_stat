@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #  Séparateur ";"
+
 df = pd.read_csv("../data/ventes_supermarche.csv", sep=';')
 
 # Conversion de la date
